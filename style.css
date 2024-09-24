@@ -1,0 +1,121 @@
+header {
+  background-color: #1fa4c5;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: xx-large;
+  padding: 30px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.web-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.early-life {
+  vertical-align: top;
+  width: 450px;
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.thor-img {
+  display: inline-block;
+}
+
+.chris-family-img {
+  display: inline-block;
+}
+
+.awards {
+  vertical-align: top;
+  display: inline-block;
+  width: 250px;
+}
+
+.info {
+  vertical-align: top;
+  display: inline-block;
+  width: 300px;
+}
+
+div.info p,
+div.awards p {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+section#achievements div {
+  margin-top: 10px;
+}
+
+.contact {
+  background-color: #1fa4c5;
+  color: #fff;
+  padding: 10px 0;
+  text-align: left;
+  font-size: x-large;
+  padding: 30px;
+}
+
+.contact a {
+  color: #fff;
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centre {
+  text-align: center;
+}
+
+.realign-ltr {
+  display: inline-block;
+  text-align: left;
+}
+
+.search-bar {
+  margin-top: 6px;
+  height: 25px;
+  border-radius: 40px;
+  border-width: 1px;
+  padding: 0 15px;
+}
+
+* {
+  font-family: 'Century Gothic';
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('./fonts/centurygothic.ttf');
+}
